@@ -32,6 +32,7 @@
             this.bt_cadastro = new System.Windows.Forms.Button();
             this.bt_login = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,12 +70,23 @@
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(424, 308);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(135, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Vizualizar Funcionários";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // TelaInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(676, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bt_login);
             this.Controls.Add(this.bt_cadastro);
             this.Controls.Add(this.pictureBox2);
@@ -93,5 +105,6 @@
         private System.Windows.Forms.Button bt_cadastro;
         private System.Windows.Forms.Button bt_login;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
     }
 }

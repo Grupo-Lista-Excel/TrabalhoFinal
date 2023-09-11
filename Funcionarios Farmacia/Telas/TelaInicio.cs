@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Office.Interop.Excel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,6 +34,12 @@ namespace Funcionarios_Farmacia.Telas
         private void TelaInicio_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TelaLista telalist = new TelaLista();
+            telalist.ShowDialog();
         }
     }
 }

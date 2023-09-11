@@ -83,7 +83,7 @@ namespace Funcionarios_Farmacia
             try
             {
                 int linha;
-                string caminhoArquivo = @"C:\Users\cti\Desktop\DadosFuncionarios\Tabela.xlsx";
+                string caminhoArquivo = @"C:\Users\2022102020014\Desktop\Lista Funcionários\Lista.xlsx";
 
                 //se diferente de true
                 if (!File.Exists(caminhoArquivo))
@@ -121,7 +121,7 @@ namespace Funcionarios_Farmacia
                     }
 
                     //salvando o arquivo Excel no caminho especificado
-                    pasta.SaveAs(@"C:\Users\cti\Desktop\DadosFuncionarios\Tabela.xlsx");
+                    pasta.SaveAs(@"C:\Users\2022102020014\Desktop\Lista Funcionários\Lista.xlsx");
                     pasta.Close(); //fechando pasta
                     app.Quit(); //fechando aplicação
 
